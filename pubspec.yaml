@@ -1,0 +1,42 @@
+name: plantcare
+description: "A new Flutter project."
+
+# Mencegah proyek dipublikasikan ke pub.dev secara tidak sengaja
+publish_to: "none"
+
+# Versi aplikasi
+version: 1.0.0+1
+
+# Versi SDK Dart yang didukung
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+# Dependensi utama
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.2
+  http: ^1.2.2
+  cupertino_icons: ^1.0.8
+  device_preview: ^1.2.0
+  shared_preferences: ^2.3.4
+
+# Dependensi pengujian dan pengembangan
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+# Pengaturan khusus Flutter
+flutter:
+  uses-material-design: true
+
+  # Menambahkan aset (jika ada)
+
+  # Menambahkan font khusus (jika ada)
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
